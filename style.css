@@ -8,6 +8,7 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(53, 244, 244);
   border-bottom: solid rgb(106, 105, 105) 5px;
@@ -24,11 +25,10 @@ header div {
   padding-right: 60px;
   padding-left: 70px;
   height: 100px;
-  justify-content: right;
 }
 
 header nav {
-  position: absolute;
+ 
   width: 400px;
   right: 0px;
 }
@@ -36,7 +36,6 @@ header nav {
 h1 {
   font-size: 50px;
   margin-left: 15px;
-  display: inline;
   align-items: center;
 
 }
@@ -64,14 +63,34 @@ header img {
   border-bottom: solid rgb(106, 105, 105) 5px;
 }
 
+.about-me-flex {
+  display: flex;
+  align-items: center;
+  flex: 1 0 200px;
+}
+
 #about-me {
   font-size: 70px;
-  border-right: solid  3px;
-  padding-right: 10px;
-  display: inline;
 }
 
 #about-me-content {
-  display: inline;
-  margin-left: 30px;
+  
 }
+
+@media screen and (max-width: 950px){
+  header {
+    flex-direction: column;
+  }
+  header div {
+    height: 90px;
+  }
+  .background-image {
+    height: 200px;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
