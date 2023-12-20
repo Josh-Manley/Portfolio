@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -21,7 +22,7 @@ header {
 header div {
   display: flex;
   align-items: center;
-  background-color: aquamarine;
+  background-color: rgba(96, 217, 177, 0.732);
   padding-right: 60px;
   padding-left: 70px;
   height: 100px;
@@ -65,7 +66,8 @@ header img {
 
 section {
   display: flex;
-  width: 1550px;
+  width: 93%;
+  min-width: 0%;
   margin-bottom: 30px;
 }
 
@@ -86,7 +88,8 @@ section {
 }
 
 #about-me-content {
-  flex: 2 200px;
+  flex-wrap: wrap;
+  flex: 2 1 200px;
   margin-left: 50px;
   margin-top: 70px;
 }
@@ -100,29 +103,43 @@ section {
 }
 
 #portfolio-1 {
-  height: 500px;
-  width: 1100px;
-  flex: 2 200px;
+  max-width: 100%;
+  min-width: 30%;
   margin-left: 50px;
+
+}
+
+#portfolio-2 {
+  max-width: 50%;
+  min-width: 30%;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .img-container-1 {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1100px;
   text-align: center;
   color: white;
+  min-width: 0;
 }
 
 .bottom-left-text {
+  display: inline;
   position: absolute;
-  bottom: 20px;
-  left: 50px;
   font-size: 40px;
-  padding-left: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 10px;
   background-color: rgba(96, 217, 177, 0.732);
+  left: 458px;
+  top: 1170px;
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
+
 
 @media screen and (max-width: 950px){
   header {
