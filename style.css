@@ -77,7 +77,7 @@ section {
   justify-content: right;
 }
 
-.vertical-line {
+#vertical-line-1 {
  height:100px;
  width: 5px;
  border-left: 6px solid rgb(106, 105, 105);
@@ -104,6 +104,24 @@ section {
   width: 1100px;
   flex: 2 200px;
   margin-left: 50px;
+}
+
+.img-container-1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  background-color: rgba(96, 217, 177, 0.732);
 }
 
 @media screen and (max-width: 950px){
