@@ -66,7 +66,7 @@ header img {
 
 section {
   display: flex;
-  width: 93%;
+  max-width: 90%;
   min-width: 0%;
   margin-bottom: 30px;
 }
@@ -75,8 +75,9 @@ section {
   font-size: 70px;
   display: flex;
   margin-left: 100px;
-  width: 300px;
+  width: 250px;
   justify-content: right;
+  text-align: right;
 }
 
 #vertical-line-1 {
@@ -88,7 +89,6 @@ section {
 }
 
 #about-me-content {
-  flex-wrap: wrap;
   flex: 2 1 200px;
   margin-left: 50px;
   margin-top: 70px;
@@ -98,63 +98,103 @@ section {
   font-size: 70px;
   display: flex;
   margin-left: 100px;
-  width: 300px;
+  max-width: 2500px;
+  min-width: 250px;
   justify-content: right;
-}
-
-#portfolio-1 {
-  max-width: 100%;
-  min-width: 30%;
-  margin-left: 50px;
-
-}
-
-#portfolio-2 {
-  max-width: 50%;
-  min-width: 30%;
-  margin-left: 50px;
-  margin-top: 10px;
 }
 
 .img-container-1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 1100px;
   text-align: center;
   color: white;
-  min-width: 0;
+  margin-left: 50px;
+}
+
+#portfolio-1 {
+  max-width: 100%;
+  min-width: 0%;
+}
+
+#portfolio-2 {
+  max-width: 50%;
+  min-width: 300px;
+  margin-top: 10px;
+  margin-right: 23px;
+}
+
+#portfolio-3 {
+  max-width: 50%;
+  min-width: 300px;
+  margin-top: 10px;
+}
+
+#portfolio-1-container {
+ position: relative;
 }
 
 .bottom-left-text {
-  display: inline;
   position: absolute;
-  font-size: 40px;
-  background-color: rgba(96, 217, 177, 0.732);
-  left: 458px;
-  top: 1170px;
-  padding-left: 70px;
-  padding-right: 30px;
+  bottom: 55px;
+  left: 0px;
+  background-color: darkgray;
+  font-size: 2vw;
+  padding-left: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  padding-right: 20px;
 }
 
+@media screen and (max-width: 1175px) {
+  .bottom-left-text {
+    bottom: 15px;
+    left: 0px;
+    font-size: 2vw;
+  }
+  .img-container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  #portfolio-3 {
+    margin: 0;
+  }
+  #portfolio-2 {
+    margin: 0;
+  }
+}
 
 @media screen and (max-width: 950px){
-  header {
-    flex-direction: column;
+    header {
+      flex-direction: column;
+    }
+    header div {
+      height: 90px;
+    }
+    .background-image {
+      height: 200px;
+    }
+    .img-container-1 {
+      flex-direction: column;
+      align-items: center;
+    }
+    #portfolio-3 {
+      margin: 0;
+    }
+    #portfolio-2 {
+      margin: 0;
+    }
+    .bottom-left-text {
+      bottom: 15px;
+      left: 0px;
+      font-size: 10px;
+    }
   }
-  header div {
-    height: 90px;
-  }
-  .background-image {
-    height: 200px;
-  }
-  }
-
   @media screen and (max-width: 600px) {
     h1 {
       font-size: 30px;
     }
+
   }
+  
+  
