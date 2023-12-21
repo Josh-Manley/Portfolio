@@ -13,14 +13,14 @@
 <body>
   <header>
     <div>
-      <img src="/images/avatar-img-placeholder.avif" alt="avatar-picture!">
+      <img src="/images/avatar placeholder.jpeg" alt="avatar-picture!">
       <h1>Josh Manley</h1>
     </div>
     <nav>
-      <ul>     
-        <li>About me</li>
-        <li>My Work</li>
-        <li>Contact Me</li>
+      <ul> 
+        <a href="#about-me"><li>About me</li></a>    
+        <a href="#work"><li>My Work</li></a>
+        <a href="#contact-me"><li>Contact Me</li></a>
       </ul>
     </nav>
   </header>
@@ -65,11 +65,15 @@
       <p id="contact-me">Contact Me</p>
       <div id="vertical-line-3"></div>
 
-      <ul class="contact-list">
-        <li>555-555-5555</li>
-        <li>joshmanley45@gmail.com</li>
-        <li>github</li>
-      </ul>
+      <div class="contact-list">
+        <ul>
+          <li>555-555-5555</li>
+          <a href="mailto:joshmanley45@gmail.com" target="_blank">
+            <li>joshmanley45@gmail.com</li></a>
+          <a href="https://github.com/dashboard" target="_blank"><li>github</li></a>
+        </ul>
+      </div>
+     
     </section>
   </main>
 </body>
