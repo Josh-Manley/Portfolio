@@ -213,7 +213,7 @@ section {
   text-decoration: underline rgb(106, 105, 105) 5px;
   text-underline-position: under;
   display: flex;
-  flex: 1 0 00px;
+  flex: 1 0 400px;
   list-style: none;
   font-size: 2em;
   justify-content: space-around;
