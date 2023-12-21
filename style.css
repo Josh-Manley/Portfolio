@@ -118,6 +118,7 @@ section {
   text-align: center;
   color: white;
   margin-left: 50px;
+  height: 100%;
 }
 
 #portfolio-1-container {
@@ -168,7 +169,7 @@ section {
 #portfolio-2 {
   display: flex;
   max-width: 100%;
-  min-width: 300px;
+  min-width: 100px;
   margin-top: 10px;
   margin-right: 23px;
   border: solid gray 5px; 
@@ -177,7 +178,7 @@ section {
 #portfolio-3 {
   display: flex;
   max-width: 100%;
-  min-width: 300px;
+  min-width: 100px;
   margin-top: 10px;
   border: solid gray 5px;
 }
@@ -235,14 +236,19 @@ section {
   }
   #portfolio-2 {
     margin: 0;
+    
   }
-  #portfolio-3-container {
-    margin: 0;
-    justify-content: center;
+
+}
+
+@media screen and (max-width: 750px) {
+  #about-me {
+    font-size: 50px;
+    margin-left: 0;
   }
-  #portfolio-2-container {
-    margin: 0;
-    justify-content: center;
+  #work {
+    font-size: 50px;
+    margin-left: 0;
   }
 }
 
