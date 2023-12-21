@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(53, 244, 244);
+  background-color: rgb(29, 151, 151);
   border-bottom: solid rgb(106, 105, 105) 5px;
   margin-left: -10px;
   margin-right: -10px;
@@ -23,22 +23,22 @@ header div {
   display: flex;
   align-items: center;
   background-color: rgba(96, 217, 177, 0.732);
-  padding-right: 60px;
+  padding-right: 35px;
   padding-left: 70px;
   height: 100px;
 }
 
 header nav {
- 
   width: 400px;
   right: 0px;
 }
 
 h1 {
   font-size: 50px;
-  margin-left: 15px;
+  margin-left: 20px;
+  padding-left: 10px;
   align-items: center;
-
+  font-family: 'caviat';
 }
 
 header li {
@@ -88,6 +88,13 @@ section {
  margin-top: 70px;
 }
 
+#vertical-line-2 {
+  height:970px;
+  width: 5px;
+  border-left: 6px solid rgb(106, 105, 105);
+  margin-left: 20px;
+ }
+
 #about-me-content {
   flex: 2 1 200px;
   margin-left: 50px;
@@ -98,6 +105,7 @@ section {
   font-size: 70px;
   display: flex;
   margin-left: 100px;
+  margin-top: 0;
   max-width: 2500px;
   min-width: 250px;
   justify-content: right;
@@ -128,6 +136,16 @@ section {
    padding-right: 20px;
  }
 
+ a:link {
+  color: white;
+  text-decoration: none;
+ }
+
+ a:visited {
+  color: white;
+  text-decoration: none;
+ }
+
  #portfolio-2-container {
   position: relative;
   display: flex;
@@ -144,6 +162,7 @@ section {
 #portfolio-1 {
   max-width: 100%;
   min-width: 0%;
+  border: solid black;
 }
 
 #portfolio-2 {
@@ -152,6 +171,7 @@ section {
   min-width: 300px;
   margin-top: 10px;
   margin-right: 23px;
+  border: solid black;
 }
 
 #portfolio-3 {
@@ -159,9 +179,40 @@ section {
   max-width: 100%;
   min-width: 300px;
   margin-top: 10px;
+  border: solid black;
 }
 
+#contact-me {
+  font-size: 70px;
+  display: flex;
+  margin-left: 100px;
+  width: 250px;
+  justify-content: right;
+  text-align: right;
+}
 
+#vertical-line-3 {
+  height:190px;
+  width: 5px;
+  border-left: 6px solid rgb(106, 105, 105);
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.contact-list {
+  display: flex;
+  align-items:center;
+  width: 100%;
+}
+
+.contact-list li {
+  text-decoration: underline;
+  display: flex;
+  list-style: none;
+  flex: 1 0 300px;
+  font-size: 2em;
+  justify-content: space-around;
+}
 
 @media screen and (max-width: 1175px) {
   .bottom-left-text {
@@ -216,7 +267,12 @@ section {
     h1 {
       font-size: 30px;
     }
-
+    #portfolio-3 {
+      margin: 0;
+    }
+    #portfolio-2 {
+      margin: 0;
+    }
   }
   
   
