@@ -60,6 +60,7 @@ header li {
 header img {
   height: 70px;
   border-radius: 40px;
+  filter: none;
 }
 
 .background-image{
@@ -173,7 +174,10 @@ section {
   padding: 10px 15px 10px 30px;
   bottom: 20px;
   left: 5px;
+ }
 
+ .bottom-left-text-2:hover {
+  text-decoration: underline;
  }
 
  #portfolio-3-container {
