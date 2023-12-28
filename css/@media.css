@@ -12,6 +12,9 @@
   .contact-list li {
     flex-direction: column;
   }
+  #vertical-line-2 {
+    height: 700px;
+  }
 }
 
 @media screen and (max-width: 1175px) {
@@ -37,13 +40,16 @@
     left: 0px;
     padding: 5px;
   }
+  #vertical-line-2 {
+    height: 700px;
+  }
 }
 
 @media screen and (max-width: 950px) {
   header {
     flex-direction: column;
   }
-  header div {
+  .left-header-container {
     height: 90px;
   }
   .background-image {
@@ -64,20 +70,41 @@
     left: 0px;
     font-size: 10px;
   }
+  #vertical-line-1 {
+    margin-top: 5px;
+  }
+  #vertical-line-2 {
+    height: 460px;
+  }
+  #about-me {
+    margin-left: 0px;
+    font-size: 60px;
+    width: 230px;
+  }
+  #work {
+    margin-left: 90px;
+    font-size: 60px;
+  }
+  #contact-me {
+    margin-left: 30px;
+    width: 250px;
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 750px) {
   #about-me {
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 0;
+    width: 145px;
   }
   #work {
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 0;
   }
   #contact-me {
-    font-size: 50px;
-    margin-left: 0;
+    font-size: 40px;
+    margin-left: 10px;
   }
   .contact-list {
     flex-direction: column;
@@ -106,8 +133,19 @@
     left: 0px;
     padding: 5px;
   }
+  #vertical-line-1 {
+    height: 150px;
+    margin-top: 50px; 
+  }
+  #vertical-line-2 {
+    height: 400px;
+  }
+  #vertical-line-3 {
+    margin-top: 30px;
+    height: 150px;
+  }
 }
-  
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 30px;
@@ -133,22 +171,42 @@
     left: -10px;
     padding: 5px;
   }
+  #vertical-line-2 {
+    height: 400px;
+  }
+  #about-me {
+    width: 130px;
+  }
 }
 
 @media screen and (max-width: 525px){
   #portfolio-1 {
     min-width: 150px;
   }
-  #portfolio-2{
-    position: relative;
-    left: -10px;
-  }
-  #portfolio-3{
-    position: relative;
-    left: 15px;
-  }
   .img-container-1 {
     justify-content: center;
     align-items: center;
+  }
+  #about-me, #work, #contact-me{
+    font-size: 30px;
+  }
+  #vertical-line-1 {
+    margin-top: 5px;
+  }
+  #vertical-line-2 {
+    height: 300px;
+  }
+  #vertical-line-3 {
+    margin-top: 30px;
+    height: 100px;
+  }
+  #about-me-content {
+    margin-top: 0;
+  }
+  #about-me {
+    width: 130px;
+  }
+  #contact-me {
+    width: 560px;
   }
 }

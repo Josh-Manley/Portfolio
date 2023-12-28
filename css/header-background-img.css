@@ -12,7 +12,7 @@ header {
   height: 150px;
 }
 
-header div {
+.left-header-container {
   display: flex;
   align-items: center;
   background-color: rgba(217, 108, 96, 0.732);
@@ -42,11 +42,16 @@ header li {
   text-decoration: underline 3px;
 }
 
+.header-image-container {
+  display: flex;
+  width: 80px;
+  height: 70px;
+}
+
 
 header img {
   max-width: 100%;
-  width: 80px;
-  height: 70px;
+  height: auto;
   border-radius: 40px;
   filter: none;
 }
