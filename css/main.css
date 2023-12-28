@@ -1,4 +1,4 @@
-/* css for main element */
+/* css stylesheet for main element */
 
 section {
   display: flex;
@@ -20,6 +20,7 @@ section {
   flex: 2 1 200px;
   margin-left: 50px;
   margin-top: 70px;
+  font-size: 2vw;
 }
 
 #work {
