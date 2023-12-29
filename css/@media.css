@@ -217,7 +217,13 @@
   #portfolio-2-container {
     height: 47px;
   }
+  header nav {
+    width: 100%;
+  }
   header ul {
     width: 100%;
+  }
+  header {
+    flex-wrap: nowrap;
   }
 }
