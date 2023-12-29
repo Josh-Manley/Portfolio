@@ -217,4 +217,7 @@
   #portfolio-2-container {
     height: 47px;
   }
+  header ul {
+    width: 100%;
+  }
 }
