@@ -79,6 +79,7 @@ section {
   position: relative;
   display: flex;
   width: 50%;
+  height: auto;
  }
 
  #portfolio-3-container {
@@ -86,6 +87,7 @@ section {
   display: flex;
   justify-content: right;
   width: 50%;
+  height: auto;
  }
  
  .bottom-left-text {
