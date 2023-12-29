@@ -210,3 +210,8 @@
     width: 560px;
   }
 }
+@media screen and (max-width: 430px) {
+  #vertical-line-2 {
+    height: 240px;
+  }
+}

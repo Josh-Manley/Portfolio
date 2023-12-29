@@ -23,7 +23,6 @@ header {
 
 header nav {
   width: 400px;
-  right: 0px;
 }
 
 h1 {
@@ -31,7 +30,6 @@ h1 {
   font-size: 50px;
   margin-left: 20px;
   padding-left: 10px;
-  align-items: center;
 }
 
 header li {
