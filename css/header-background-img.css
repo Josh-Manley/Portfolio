@@ -36,7 +36,7 @@ header li {
   margin: 10px;
   list-style-type: none;
   display: inline-block;
-  font-size: 1.25vw;
+  font-size: 1.35em;
   text-decoration: underline 3px;
 }
 
