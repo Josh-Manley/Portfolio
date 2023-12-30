@@ -22,7 +22,8 @@ header {
 }
 
 header nav {
-  width: 400px;
+  display: flex;
+  
 }
 
 h1 {
@@ -36,7 +37,7 @@ header li {
   margin: 10px;
   list-style-type: none;
   display: inline-block;
-  font-size: 1.35em;
+  font-size: 1.5vw;
   text-decoration: underline 3px;
 }
 

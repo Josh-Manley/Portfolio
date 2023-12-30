@@ -90,6 +90,9 @@
     width: 250px;
     font-size: 60px;
   }
+  header li {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -183,6 +186,9 @@
   .contact-list li {
     text-decoration: underline 2px;
   }
+  header li {
+    font-size: 2.5vw;
+  }
 }
 
 @media screen and (max-width: 525px){
@@ -228,5 +234,8 @@
   }
   .contact-list li {
     text-decoration: underline 1px;
+  }
+  header li {
+    font-size: 3.5vw;
   }
 }
