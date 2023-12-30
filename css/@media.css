@@ -224,6 +224,10 @@
   .contact-list li {
     text-decoration: underline 1px;
   }
+  #email-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 @media screen and (max-width: 430px) {
   #vertical-line-2 {
@@ -237,5 +241,9 @@
   }
   header li {
     font-size: 3.5vw;
+  }
+  #email-lik {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
