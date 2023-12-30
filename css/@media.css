@@ -144,6 +144,9 @@
     margin-top: 30px;
     height: 150px;
   }
+  .contact-list li {
+    text-decoration: underline 2px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -177,6 +180,9 @@
   #about-me {
     width: 130px;
   }
+  .contact-list li {
+    text-decoration: underline 2px;
+  }
 }
 
 @media screen and (max-width: 525px){
@@ -209,6 +215,9 @@
   #contact-me {
     width: 560px;
   }
+  .contact-list li {
+    text-decoration: underline 1px;
+  }
 }
 @media screen and (max-width: 430px) {
   #vertical-line-2 {
@@ -216,5 +225,8 @@
   }
   #portfolio-2-container {
     height: 47px;
+  }
+  .contact-list li {
+    text-decoration: underline 1px;
   }
 }
