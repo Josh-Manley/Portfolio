@@ -21,11 +21,6 @@ header {
   height: 100px;
 }
 
-header nav {
-  display: flex;
-  
-}
-
 h1 {
   font-family: 'caviat';
   font-size: 50px;
