@@ -40,6 +40,7 @@ header li {
   display: flex;
   width: 80px;
   height: 70px;
+  margin: 0;
 }
 
 
@@ -56,8 +57,7 @@ header img {
   background-size: 100% 100%;
   background-image: url(../images/background-image.jpg);
   background-repeat: no-repeat;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 0px -10px 0px -10px;
   border-bottom: solid var(--lines-borders-color) 5px;
 }
 #background-image-text {
