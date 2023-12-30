@@ -230,6 +230,9 @@
   }
 }
 @media screen and (max-width: 430px) {
+  #vertical-line-1 {
+    height: 250px;
+  }
   #vertical-line-2 {
     height: 240px;
   }
@@ -245,5 +248,8 @@
   #email-link {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+  #about-me-content {
+    font-size: 10px;
   }
 }
