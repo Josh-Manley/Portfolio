@@ -1,18 +1,14 @@
 /* css stylesheet for webpage */
 
 :root {
-  --lines-borders-color: rgb(106, 105, 105);
-  --portfolio-borders: solid gray 5px;
+  --lines-borders-color: #A097F4;
+  --portfolio-borders: solid #A097F4 3px;
   --vertical-line-width: 5px;
 }
 
 * {
   box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-body {
-  background-color: lightgray;
 }
 
 img {
