@@ -179,7 +179,7 @@ section {
 }
 
 #vertical-line-1 {
-  height: 250px;
+  height: auto;
   width: var(--vertical-line-width);
   border-left: 6px solid var(--lines-borders-color);
   margin-left: 20px;
@@ -187,14 +187,14 @@ section {
  }
  
 #vertical-line-2 {
-  height: 900px;
+  height:auto;
   width: var(--vertical-line-width);
   border-left: 6px solid var(--lines-borders-color);
   margin-left: 20px;
 }
 
 #vertical-line-3 {
-  height:190px;
+  height:auto;
   width: var(--vertical-line-width);
   border-left: 6px solid var(--lines-borders-color);
   margin-left: 20px;
