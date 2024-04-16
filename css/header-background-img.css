@@ -4,7 +4,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #F4A097;
+  background-color: #333;
   border-bottom: solid var(--lines-borders-color) 5px;
   margin-left: -10px;
   margin-right: -10px;
