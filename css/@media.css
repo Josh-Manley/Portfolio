@@ -145,7 +145,7 @@
   }
 }
 
-@media screen and (max-width: 525px) {
+/* @media screen and (max-width: 525px) {
   #portfolio-1 {
     min-width: 150px;
   }
@@ -179,9 +179,9 @@
   #email-link {
     margin: 5px 0;
   }
-}
+} */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 525px) {
   section {
     flex-direction: column;
     align-items: center;
