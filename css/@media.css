@@ -182,17 +182,25 @@
 }
 
 @media screen and (max-width: 430px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
   #vertical-line-1 {
-    height: 250px;
+    display: none;
   }
   #vertical-line-2 {
-    height: 240px;
+    display: none;
   }
-  #portfolio-2-container {
-    height: 47px;
+  #vertical-line-3 {
+    display: none;
   }
-  #portfolio-3-container {
-    height: 47px;
+  
+  .bottom-left-text, .bottom-left-text-2, .bottom-left-text-3 {
+    bottom: 7px;
+    left: 3px;
+    padding: 5px;
   }
   .contact-list li {
     text-decoration: underline;
