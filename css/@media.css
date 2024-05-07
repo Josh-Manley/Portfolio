@@ -197,7 +197,7 @@
     display: none;
   }
   #portfolio-2-container, #portfolio-3-container {
-    height: auto;
+    height: 95px;
   }
   .bottom-left-text, .bottom-left-text-2, .bottom-left-text-3 {
     bottom: 7px;
