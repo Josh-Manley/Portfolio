@@ -214,6 +214,7 @@
     margin: 5px 0;
   }
   #about-me-content {
-    font-size: 10px;
+    font-size: 3.5vw;
+    margin-top: 0;
   }
 }
