@@ -30,9 +30,7 @@
     flex-direction: column;
     align-items: center;
   }
-  #portfolio-2 {
-    margin: 0;
-  }
+  
   .bottom-left-text-2, .bottom-left-text-3 {
     bottom: 0;
     left: 0;
@@ -191,6 +189,9 @@
     height: 240px;
   }
   #portfolio-2-container {
+    height: 47px;
+  }
+  #portfolio-3-container {
     height: 47px;
   }
   .contact-list li {
