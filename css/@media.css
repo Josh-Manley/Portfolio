@@ -207,6 +207,9 @@
   .contact-list li {
     text-decoration: underline;
   }
+  .contact-list {
+    width: auto;
+  }
   header li {
     font-size: 3.5vw;
   }
