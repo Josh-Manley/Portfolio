@@ -186,6 +186,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0;
+    width: auto;
   }
   #vertical-line-1 {
     display: none;
@@ -196,7 +197,9 @@
   #vertical-line-3 {
     display: none;
   }
-  
+  #portfolio-2-container, #portfolio-3-container {
+    height: auto;
+  }
   .bottom-left-text, .bottom-left-text-2, .bottom-left-text-3 {
     bottom: 7px;
     left: 3px;
